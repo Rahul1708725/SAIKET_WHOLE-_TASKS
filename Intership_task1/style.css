@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+ overflow-x: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+header{
+      background-color: whitesmoke;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+li , .left{
+        font-size: 24px;
+font-weight: 700;
+  list-style-type: none;
+}
+.right , ul {
+    gap: 40px;
+  display: flex;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 74vh;
+    background-color:antiquewhite;
+}
+.contentitems{
+    width: 40%;
+    height: 75%;
+    /* border: 2px solid black; */
+}
+.rahul{
+ border: 1px solid black;
+ border-radius: 15px;
+    cursor: pointer;
+    width: 64%;
+    margin-left: 40px;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.Published{
+    font-weight: 600;
+}
+p{
+    margin-top: 10px;
+}
+h5{
+    color: rgb(35, 35, 35);
+}
+.readmore{
+    font-weight: 700;
+    color: black;
+}
+.readmore:hover{
+    color: blue;
+}
+.a2{
+    display: flex;
+    justify-content:start
+}
+.mediaicons{
+    transition: transform 0.4s ease;
+  margin-inline: 3px;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 100px;
+    background-color: whitesmoke;
+    width: 30px;
+}
+.icons{
+    margin-top: 20px;
+}
+.author{
+    /* margin-top: 25px; */
+display: flex;
+justify-content: end;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+.links{
+text-decoration: none;
+color: black;
+}
+.main{
+width: 100%;
+height: 80vh;
+background-color: aquamarine;
+}
+.mediaicons:hover{
+/* transform: rotate(360deg); */
+/* transform: scale(1.2); */
+ transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.para{
+    font-size: 19px;
+}
+.links:hover{
+color: rgb(91, 91, 91);
+}
+.h1{
+    color: black;
+    margin-bottom: 30px;
+}
+.maincont{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 240px;
+    background-color: whitesmoke;
+}
+.h1{
+    text-align: center;
+font-size: 43px;
+}
+.conclusion{
+    display: flex;
+    flex-direction: column;
+width: 100vw;
+    height: auto;
+   
+}
+div span{
+    font-weight: 600;
+    font-size: 25px;
+   
+}
+.line{
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
